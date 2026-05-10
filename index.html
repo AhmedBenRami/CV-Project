@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>CV</title>
+    <!-- loading animation -->
+    <style>
+        .loading-screen {
+            width: 100vw;
+            height: 100vh;
+            background: #ce5151;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+        }
+    </style>
+
+    <!-- style -->
+
+    <!-- scripts -->
+    <script src="./src/jquery.js"></script>
+
+  <script type="module" crossorigin src="/assets/index-CbLvh-ob.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C4764OBh.css">
+</head>
+
+<body>
+
+    <div class="loading-screen">
+        <div class="loading-rec"></div>
+    </div>
+
+
+    <div class="cv-wrapper">
+
+
+        <!-- the header -->
+        <header class="hero-header anim-swipe">
+            <img class="profile-image" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Main Profile Picture">
+            <div class="profile-infos">
+                <h1>Hi, I'm <b>Ahmed Ben Rami</b></h1>
+                <div class="profession">Computer Sience Student - FSSM</div>
+            </div>
+
+            <address class="contact-info">
+                <div class="city">Marrakesh - Morocco</div>
+                <div class="social-media">
+                    <div class="email">Email : <a href="mailto:a.benrami2108@uca.ac.ma">a.benrami2108@uca.ac.ma</a>
+                    </div>
+                    <div class="phone-number">Phone Number :<a href="tel:+212626956324"> +212 (6) 26956324</a></div>
+                    <div class="github">GitHub :<a href="https://github.com/AhmedBenRami"> AhmedBenRami</a></div>
+                    <div class="linkedin">
+                        LinkedIn :<a href="www.linkedin.com/in/ahmed-ben-rami-070951197">
+                            ahmed-ben-rami</a>
+                    </div>
+
+                </div>
+            </address>
+
+            <!-- button to donload the cv -->
+            <button class="download-cv">download cv</button>
+        </header>
+
+
+
+        <main class="main-container">
+
+            <!-- about section -->
+            <section id="about">
+                <h2 class="about-title">About me</h2>
+                <p class="about-text">​I am a second-year Computer Science student at FSSM, currently dedicated to
+                    mastering the core principles of software development and system architecture. My technical
+                    curiosity is split between two worlds: the hidden logic of the machine and the visual experience of
+                    the user.
+                    ​I have a deep fascination with low-level programming, as I enjoy the challenge of working close to
+                    the hardware where every line of code impacts performance. This interest in "how things work"
+                    extends to the broader tech landscape, where I enjoy exploring the intricacies of networking
+                    protocols and the growing world of IoT. Understanding the underlying infrastructure of technology is
+                    what drives my learning process.
+                    ​Beyond the backend, I am also a passionate UI designer. I enjoy the creative process of building
+                    interfaces for web applications, desktop environments, and 2D games, focusing on precision and
+                    functional layouts. Whether I am optimizing a C++ algorithm or refining a CSS border, my goal is
+                    always to bridge the gap between technical efficiency and a great user experience. I am constantly
+                    seeking new projects that allow me to experiment with these diverse fields.</p>
+            </section>
+
+            <!-- skills section -->
+            <section id="skills">
+                <h2 class="section-title">Skills & expertise</h2>
+
+                <div class="skills-grid">
+
+                    <!-- Technical skills block -->
+                    <div class="skill-category" id="tech">
+                        <h3>Technical Skills</h3>
+                    </div>
+
+                    <!-- Professional skills block -->
+                    <div class="skill-category" id="personal">
+                        <h3>Professional Skills</h3>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- education background section -->
+            <section id="education">
+                <h2 class="section-title">Academic background</h2>
+                <div class="timeline"></div>
+            </section>
+
+            <!-- projects section -->
+            <section id="experience-projects">
+                <h2 class="section-title">Experiences & projects</h2>
+                <div class="cards-area" id="cards-root"></div>
+    </div>
+    </section>
+
+    <section id="contact">
+
+        <form id="contactForm" method="post">
+            <div class="form-desc">
+                <legend>Send Message</legend>
+                <span class="form-note">All fields are required</span>
+            </div>
+            <div class="input-group">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="Ahmed Ben Rami" required>
+                <div class="checking-box"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="ahmed@domain.country" required>
+                <div class="checking-box"></div>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="I’d love to collaborate on a project..."
+                    required></textarea>
+                <div class="checking-box"></div>
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="btn-submit" />
+            </div>
+            <div class="form-result"></div>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <i class="far fa-copyright"></i>2026 CV Website By Ahmed <br>© All Rights Reserved
+    </footer>
+    </div>
+
+
+    <!-- optional small script (purely decorative) - no external logic required but adds smoothness for skill bar? already static bars; no react needed here -->
+</body>
+
+</html>
