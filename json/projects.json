@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Portfolio",
+        "description": "Portfolio is a project website created as showcases for a fictional photographer, and project his works in a web-based format based on vanilla web technologies.",
+        "language": "HTML / CSS / JS",
+        "html_url": "https://ahmedbenrami.github.io/Portfolio/",
+        "color": "#FF0055",
+        "pixelCenterText": "</>"
+    },
+    {
+        "id": 2,
+        "name": "Snake Game",
+        "description": "A snake game in the retro style created in C++ language, using Raylib library.",
+        "language": "C++ / Raylib",
+        "html_url": "https://github.com/AhmedBenRami/Snake-Game",
+        "color": "#00FF41",
+        "pixelCenterText": "0x1"
+    },
+    {
+        "id": 3,
+        "name": "Platformer Quest",
+        "description": "A 2D action platformer built with Raylib. Navigate 3 levels, dodge enemies, collect coins, survive the boss, and reach the gate.",
+        "language": "C++ / Raylib",
+        "html_url": "https://github.com/AhmedBenRami/Chace-Game",
+        "color": "#00D4FF",
+        "pixelCenterText": "++"
+    },
+    {
+        "id": 4,
+        "name": "Order Card",
+        "description": "A responsive order summary card component showcasing modern web design with smooth animations, gradient effects, and mobile-first responsive layouts.",
+        "language": "HTML / CSS",
+        "html_url": "https://ahmedbenrami.github.io/Order-summary-component/",
+        "color": "#B537F2",
+        "pixelCenterText": "{;}"
+    }
+]

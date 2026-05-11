@@ -6,31 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>CV</title>
     <!-- loading animation -->
-    <style>
-        .loading-screen {
-            width: 100vw;
-            height: 100vh;
-            background: #ce5151;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 9999;
-        }
-    </style>
 
     <!-- style -->
 
-    <!-- scripts -->
-    <script src="./src/jquery.js"></script>
 
-  <script type="module" crossorigin src="/assets/index-CbLvh-ob.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-C4764OBh.css">
+    <!-- scripts -->
+    <script src="./jquery.js"></script>
+
+  <script type="module" crossorigin src="/assets/index-350t_8V_.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DfCBtNMw.css">
 </head>
 
 <body>
 
     <div class="loading-screen">
-        <div class="loading-rec"></div>
+        <div class="loading-rec">loading
+
+            <div class="loading-bar"></div>
+        </div>
     </div>
 
 
@@ -48,12 +41,15 @@
             <address class="contact-info">
                 <div class="city">Marrakesh - Morocco</div>
                 <div class="social-media">
-                    <div class="email">Email : <a href="mailto:a.benrami2108@uca.ac.ma">a.benrami2108@uca.ac.ma</a>
+                    <div class="email">Email : <a href="mailto:a.benrami2108@uca.ac.ma"
+                            target="_blank">a.benrami2108@uca.ac.ma</a>
                     </div>
-                    <div class="phone-number">Phone Number :<a href="tel:+212626956324"> +212 (6) 26956324</a></div>
-                    <div class="github">GitHub :<a href="https://github.com/AhmedBenRami"> AhmedBenRami</a></div>
+                    <div class="phone-number">Phone Number :<a href="tel:+212626956324"> +212 (6)
+                            26956324</a></div>
+                    <div class="github">GitHub :<a href="https://github.com/AhmedBenRami" target="_blank">
+                            AhmedBenRami</a></div>
                     <div class="linkedin">
-                        LinkedIn :<a href="www.linkedin.com/in/ahmed-ben-rami-070951197">
+                        LinkedIn :<a href="https://www.linkedin.com/in/ahmed-ben-rami-070951197" target="_blank">
                             ahmed-ben-rami</a>
                     </div>
 
@@ -61,7 +57,7 @@
             </address>
 
             <!-- button to donload the cv -->
-            <button class="download-cv">download cv</button>
+            <a class="download-cv" href="./public/cv.pdf" target="_blank">download cv</a>
         </header>
 
 
@@ -116,47 +112,44 @@
             <section id="experience-projects">
                 <h2 class="section-title">Experiences & projects</h2>
                 <div class="cards-area" id="cards-root"></div>
+            </section>
+
+
+            <section id="contact">
+                <h2 class="section-title">Contact Us</h2>
+                <form id="contactForm" method="post">
+                    <div class="form-desc">
+                        <legend>Send Message</legend>
+                        <span class="form-note">All fields are required</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Ahmed Ben Rami" required>
+                        <div class="checking-box"></div>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="ahmed@domain.country" required>
+                        <div class="checking-box"></div>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="I’d love to collaborate on a project..."
+                            required></textarea>
+                        <div class="checking-box"></div>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit" class="btn-submit" />
+                    </div>
+                    <div class="form-result"></div>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <i class="hn hn-algolia"></i>2026 CV Website By Ahmed <br>All Rights Reserved
+        </footer>
     </div>
-    </section>
-
-    <section id="contact">
-
-        <form id="contactForm" method="post">
-            <div class="form-desc">
-                <legend>Send Message</legend>
-                <span class="form-note">All fields are required</span>
-            </div>
-            <div class="input-group">
-                <label for="name">Full name</label>
-                <input type="text" id="name" name="name" placeholder="Ahmed Ben Rami" required>
-                <div class="checking-box"></div>
-            </div>
-            <div class="input-group">
-                <label for="email">Email address</label>
-                <input type="email" id="email" name="email" placeholder="ahmed@domain.country" required>
-                <div class="checking-box"></div>
-            </div>
-            <div class="input-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="I’d love to collaborate on a project..."
-                    required></textarea>
-                <div class="checking-box"></div>
-            </div>
-            <div>
-                <input type="submit" value="Submit" class="btn-submit" />
-            </div>
-            <div class="form-result"></div>
-        </form>
-    </section>
-    </main>
-
-    <footer>
-        <i class="far fa-copyright"></i>2026 CV Website By Ahmed <br>© All Rights Reserved
-    </footer>
-    </div>
-
-
-    <!-- optional small script (purely decorative) - no external logic required but adds smoothness for skill bar? already static bars; no react needed here -->
 </body>
 
 </html>

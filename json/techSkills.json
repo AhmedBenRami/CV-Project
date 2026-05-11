@@ -1,0 +1,42 @@
+[
+    {
+        "name": "C / C++",
+        "description": "Low Level Manipulation",
+        "ratio": 70
+    },
+    {
+        "name": "Python",
+        "description": "High Level OOP",
+        "ratio": 60
+    },
+    {
+        "name": "Assembly",
+        "description": "X86",
+        "ratio": 45
+    },
+    {
+        "name": "HTML5 / CSS3 / Vanilla JS",
+        "description": "Core Web",
+        "ratio": 90
+    },
+    {
+        "name": "React & jQuery",
+        "description": "Hooks-Routes-DOM manipulation",
+        "ratio": 60
+    },
+    {
+        "name": "Bash",
+        "description": "Automation",
+        "ratio": 76
+    },
+    {
+        "name": "SQL",
+        "description": "DataBases Management",
+        "ratio": 67
+    },
+    {
+        "name": "Git & GitHub",
+        "description": "Organizing-Deploiment Projects",
+        "ratio": 70
+    }
+]

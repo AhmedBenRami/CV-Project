@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Collaborative Problem Solving",
+        "description": "",
+        "ratio": 78
+    },
+    {
+        "name": "Analytical Troubleshooting",
+        "description": "Debugging Mindset",
+        "ratio": 70
+    },
+    {
+        "name": "Technical Communication & Presentation",
+        "description": "",
+        "ratio": 60
+    },
+    {
+        "name": "Time Management & Milestone Planning",
+        "description": "",
+        "ratio": 65
+    }
+]

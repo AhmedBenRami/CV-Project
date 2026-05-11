@@ -1,0 +1,37 @@
+[
+    {
+        "year": "2025-2026",
+        "specification": "Science Informatique",
+        "semisters": "S3-S4",
+        "establishement": "FSSM",
+        "grade": null
+    },
+    {
+        "year": "2024-2025",
+        "specification": "Science Informatique",
+        "semisters": "S1-S2",
+        "establishement": "FSSM",
+        "grade": "Mention Bien"
+    },
+    {
+        "year": "2022-2023",
+        "specification": "Science Mathématique A",
+        "semisters": "1st - 2nd Year baccalauréat",
+        "establishement": "El Maghrib Al Arabi",
+        "grade": "Mention Assez Bien"
+    },
+    {
+        "year": "2019-2020",
+        "specification": "Secondary School",
+        "semisters": "1st - 3rd Year High School",
+        "establishement": "El Taquadoum",
+        "grade": "Mention Très Bien"
+    },
+    {
+        "year": "2016-2017",
+        "specification": "Elementary School",
+        "semisters": "1st - 6th Year Elementary",
+        "establishement": "Al Sanaoubar",
+        "grade": "Mention Très Bien"
+    }
+]
