@@ -8,13 +8,42 @@
     <!-- loading animation -->
 
     <!-- style -->
+    <style>
+        #education {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #education i {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            translate: 50% -50%;
+            rotate: 0deg;
+            /* transform: translate(50%, -50%) rotate(40deg); */
+            font-size: 180px;
+            opacity: 0.5;
+            animation: rotation infinite 4s linear;
+        }
+
+        @keyframes rotation {
+            from {
+                rotate: 0deg;
+            }
+
+            to {
+                rotate: 360deg;
+            }
+        }
+    </style>
 
 
     <!-- scripts -->
     <script src="./jquery.js"></script>
 
-  <script type="module" crossorigin src="/assets/index-350t_8V_.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DfCBtNMw.css">
+    <script type="module" crossorigin src="/assets/index-Dt6QUfx0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dm3F4rfj.css">
+    <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -32,7 +61,7 @@
 
         <!-- the header -->
         <header class="hero-header anim-swipe">
-            <img class="profile-image" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Main Profile Picture">
+            <img class="profile-image" src="/assets/profile_normal-C07hh6i2.png" alt="Main Profile Picture">
             <div class="profile-infos">
                 <h1>Hi, I'm <b>Ahmed Ben Rami</b></h1>
                 <div class="profession">Computer Sience Student - FSSM</div>
@@ -105,6 +134,8 @@
             <!-- education background section -->
             <section id="education">
                 <h2 class="section-title">Academic background</h2>
+                <span style="font-size: 11px;">*Hover over dots</span>
+                <i class="hn hn-disc-solid"></i>
                 <div class="timeline"></div>
             </section>
 
@@ -144,11 +175,17 @@
                     <div class="form-result"></div>
                 </form>
             </section>
+
+            <button id="moveTopBtn" class="move-top-btn" aria-label="Scroll to top">
+                <i class="hn hn-arrow-circle-up-solid"></i>
+            </button>
         </main>
 
         <footer>
             <i class="hn hn-algolia"></i>2026 CV Website By Ahmed <br>All Rights Reserved
         </footer>
+
+
     </div>
 </body>
 
